@@ -5,7 +5,7 @@ on:
       - .github/workflows/scheduled.yml
   schedule:
     # Once every day
-    - cron:  '0 0 * * *'
+    - cron:  '20 20 * * *'
 jobs:
   delete:
     runs-on: ubuntu-latest
